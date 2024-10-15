@@ -3,23 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Themed To-Do List</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <title>To-do List</title>
 </head>
 <body>
     <div class="container">
-        
-        <form>
         <h1>To-Do List</h1>
-            <input type="button" class="Sorting" value="Sorting">
-            <input type="text" class="list" name="list" placeholder="Add items to your to-do list" >
-            <input type="button" class="add" value="Add">
-        </form> 
-
+        <div class="input-section">
+            <input type="text" id="new-task" placeholder="Add a new task..." />
+            <button id="add-task-button">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
     </div>
-
-
-
     <script src="script/code.js"></script>
 </body>
 </html>
